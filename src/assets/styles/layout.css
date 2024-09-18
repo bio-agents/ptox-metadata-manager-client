@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Righteous';
+    src: url('@/assets/fonts/Righteous.ttf') format('truetype');
+}
+
+.v-application .righteous, .v-application .text-body-1.righteous {
+    font-family: 'Righteous', 'Roboto', cursive !important;
+    text-transform: uppercase;
+}
+
+.v-stepper__content {
+    padding: 0 !important;
+}
+
+.bigForm fieldset {
+    padding-left: 0 !important;
+}
+
+.bigForm input {
+    font-size: 30px !important;
+    padding: 30px 0 !important;
+}
+
+.bigForm label{
+    font-size: 1.5rem !important;
+    overflow: initial !important;
+}
+.bigForm .v-input__append-inner{
+    margin-top: 20px !important;
+}
+.bigForm .v-label:not(.v-label--active){
+    margin-top: 10px !important;
+}
+.bigForm .v-snack__content{
+    text-align: center !important;
+}
+
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
